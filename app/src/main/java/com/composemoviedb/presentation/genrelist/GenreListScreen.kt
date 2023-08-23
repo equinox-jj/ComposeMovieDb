@@ -51,7 +51,7 @@ import com.composemoviedb.core.utils.UiEvent
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
-internal fun GenreListScreen(
+fun GenreListScreen(
     viewModel: GenreListViewModel = hiltViewModel(),
     navigateToSearch: () -> Unit,
     navigateToDiscover: (String) -> Unit,

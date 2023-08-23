@@ -62,7 +62,7 @@ import com.composemoviedb.presentation.moviedetail.pagerscreen.ReviewScreen
 
 @OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)
 @Composable
-internal fun MovieDetailScreen(
+fun MovieDetailScreen(
     viewModel: MovieDetailViewModel = hiltViewModel(),
     navigateBack: () -> Unit,
 ) {

@@ -17,7 +17,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-internal class DiscoverViewModel @Inject constructor(
+class DiscoverViewModel @Inject constructor(
     private val movieUseCase: MovieUseCase,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {

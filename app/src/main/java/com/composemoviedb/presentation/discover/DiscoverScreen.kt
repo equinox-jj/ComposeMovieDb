@@ -60,7 +60,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun DiscoverScreen(
+fun DiscoverScreen(
     viewModel: DiscoverViewModel = hiltViewModel(),
     navigateBack: () -> Unit,
     navigateToDetail: (Int) -> Unit,

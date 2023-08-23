@@ -47,7 +47,7 @@ import com.composemoviedb.presentation.components.MovieAppBar
 import com.composemoviedb.presentation.components.MovieListCard
 
 @Composable
-internal fun SearchScreen(
+fun SearchScreen(
     viewModel: SearchViewModel = hiltViewModel(),
     navigateBack: () -> Unit,
     navigateToDetail: (Int) -> Unit,

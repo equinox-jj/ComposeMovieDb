@@ -35,7 +35,7 @@ import com.composemoviedb.theme.DarkYellow
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun MovieListCard(
+fun MovieListCard(
     data: MovieListResult,
     onMovieCardClicked: (Int) -> Unit,
     modifier: Modifier = Modifier,

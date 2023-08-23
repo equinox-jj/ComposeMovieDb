@@ -23,7 +23,7 @@ import com.composemoviedb.core.utils.Constants
 import com.composemoviedb.domain.entities.CastResult
 
 @Composable
-internal fun CastItem(
+fun CastItem(
     data: CastResult,
     modifier: Modifier = Modifier,
 ) {

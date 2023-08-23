@@ -17,7 +17,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-internal class SearchViewModel @Inject constructor(private val movieUseCase: MovieUseCase) :
+class SearchViewModel @Inject constructor(private val movieUseCase: MovieUseCase) :
     ViewModel() {
 
     private val _state = MutableStateFlow(SearchState())

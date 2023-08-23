@@ -25,7 +25,7 @@ import com.composemoviedb.core.utils.Constants.BASE_TRAILER_THUMBNAIL_END
 import com.composemoviedb.domain.entities.VideoResult
 
 @Composable
-internal fun TrailerItem(
+fun TrailerItem(
     data: VideoResult,
     onTrailerClicked: () -> Unit,
     modifier: Modifier = Modifier,

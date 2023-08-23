@@ -42,7 +42,7 @@ import com.composemoviedb.domain.entities.ReviewResult
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun ReviewItem(
+fun ReviewItem(
     data: ReviewResult,
     modifier: Modifier = Modifier,
 ) {
