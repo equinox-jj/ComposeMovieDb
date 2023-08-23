@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ComposeMovieDb</string>
+    <string name="select_movie_genres">"Select Movie Genres: "</string>
+    <string name="genres">"Genres: "</string>
+    <string name="submit">Submit</string>
+    <string name="no_description">No Description.</string>
+    <string name="untitled">Untitled</string>
+</resources>
